@@ -7,9 +7,8 @@ example
 # coding=utf-8
 
 import mylib.mysql.connector as mysql
-#from ucmrow import *
 
-conn = mysql.connect(host='localhost', user='root',passwd='admin',db='ucm_config',charset='utf8')
+conn = mysql.connect(host='localhost', user='root',passwd='admin',db='test',charset='utf8')
 
 c = conn.cursor(mysqlrow=True)
 
